@@ -54,6 +54,8 @@
 		B5E65B871D072695008CF238 /* Shake Your Moody */ = {
 			isa = PBXGroup;
 			children = (
+				B5E65B9B1D072C00008CF238 /* function */,
+				B5E65B9A1D072BE3008CF238 /* classObject */,
 				B5E65B881D072695008CF238 /* AppDelegate.swift */,
 				B5E65B8A1D072695008CF238 /* ViewController.swift */,
 				B5E65B8C1D072695008CF238 /* Main.storyboard */,
@@ -62,6 +64,20 @@
 				B5E65B941D072695008CF238 /* Info.plist */,
 			);
 			path = "Shake Your Moody";
+			sourceTree = "<group>";
+		};
+		B5E65B9A1D072BE3008CF238 /* classObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = classObject;
+			sourceTree = "<group>";
+		};
+		B5E65B9B1D072C00008CF238 /* function */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = function;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
