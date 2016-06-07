@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var hair: UISwitch!
+    @IBOutlet weak var skin: UISwitch!
+    @IBOutlet weak var sexe: UISwitch!
+    @IBOutlet weak var validate: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         //var products:[Product] = jsonToData(getJSON("http://163.172.27.134/api/products"))

@@ -16,11 +16,171 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8G4-va-5x9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <subviews>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtH-Xd-zcU">
+                                        <rect key="frame" x="0.0" y="94" width="600" height="44"/>
+                                        <items>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="1Iw-D7-Loi"/>
+                                            <barButtonItem title="Me" width="84" id="VDx-th-vrK"/>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="gS5-Ie-wZ7"/>
+                                        </items>
+                                    </toolbar>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jW-bd-Zaw">
+                                        <rect key="frame" x="0.0" y="50" width="600" height="44"/>
+                                        <items>
+                                            <barButtonItem title="Shake Your Moody" id="Oc5-jY-O6s"/>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="k5W-9K-MyQ"/>
+                                            <barButtonItem image="infoIcon" id="t2D-66-jwI"/>
+                                        </items>
+                                    </toolbar>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6I3-PP-1my">
+                                        <rect key="frame" x="8" y="237" width="584" height="44"/>
+                                        <items>
+                                            <barButtonItem title="Clair" width="63" id="JoM-8b-Tkc"/>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="vuv-Nh-XVq"/>
+                                            <barButtonItem style="plain" id="q6q-IG-iyA">
+                                                <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="7iS-nz-LTk">
+                                                    <rect key="frame" x="266" y="7" width="51" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </switch>
+                                            </barButtonItem>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="4hd-9Q-vrJ"/>
+                                            <barButtonItem title="Foncé" width="67" id="EF1-Za-jOJ"/>
+                                        </items>
+                                    </toolbar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVX-Xf-ohY">
+                                        <rect key="frame" x="0.0" y="146" width="600" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheveux" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kM-LM-WGC">
+                                        <rect key="frame" x="20" y="216" width="560" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peau" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hE6-RE-KDF">
+                                        <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXY-jv-riw">
+                                        <rect key="frame" x="8" y="310" width="584" height="44"/>
+                                        <items>
+                                            <barButtonItem title="Clair" width="63" id="g0z-cC-Buw"/>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="qrN-K3-xCT"/>
+                                            <barButtonItem style="plain" id="DjV-px-eQh">
+                                                <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="2a8-P5-aQz">
+                                                    <rect key="frame" x="266" y="7" width="51" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </switch>
+                                            </barButtonItem>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="mzw-VX-S1R"/>
+                                            <barButtonItem title="Foncé" width="67" id="LmW-ZM-UPj"/>
+                                        </items>
+                                    </toolbar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afz-eg-bw3">
+                                        <rect key="frame" x="282" y="366" width="37" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LTa-FP-5mw">
+                                        <rect key="frame" x="8" y="395" width="584" height="44"/>
+                                        <items>
+                                            <barButtonItem title="Male" width="62" id="HxJ-Xa-5mH"/>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="iMT-pO-3BL"/>
+                                            <barButtonItem style="plain" id="RvS-IT-8uj">
+                                                <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="zCl-4i-1yc">
+                                                    <rect key="frame" x="266" y="7" width="51" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </switch>
+                                            </barButtonItem>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="x0Y-sz-G6d"/>
+                                            <barButtonItem title="Femelle" width="68" id="6Vm-hB-OmZ"/>
+                                        </items>
+                                    </toolbar>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRv-93-AGH">
+                                        <rect key="frame" x="20" y="468" width="549" height="30"/>
+                                        <state key="normal" title="Valider">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="iXY-jv-riw" firstAttribute="trailing" secondItem="6I3-PP-1my" secondAttribute="trailing" id="193-l8-y2Y"/>
+                                    <constraint firstItem="1kM-LM-WGC" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" constant="255" id="194-6G-9jd"/>
+                                    <constraint firstItem="3jW-bd-Zaw" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" id="1AQ-Ve-yFN"/>
+                                    <constraint firstItem="NtH-Xd-zcU" firstAttribute="top" secondItem="3jW-bd-Zaw" secondAttribute="bottom" id="2ZV-mD-JZa"/>
+                                    <constraint firstItem="LTa-FP-5mw" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" constant="8" id="3sM-R3-5vh"/>
+                                    <constraint firstItem="3jW-bd-Zaw" firstAttribute="top" secondItem="8G4-va-5x9" secondAttribute="top" constant="50" id="4F2-Bq-79S"/>
+                                    <constraint firstItem="1kM-LM-WGC" firstAttribute="top" secondItem="6I3-PP-1my" secondAttribute="top" constant="-21" id="4Qs-k3-COd"/>
+                                    <constraint firstItem="LTa-FP-5mw" firstAttribute="trailing" secondItem="iXY-jv-riw" secondAttribute="trailing" id="B26-d9-XNp"/>
+                                    <constraint firstItem="afz-eg-bw3" firstAttribute="top" secondItem="iXY-jv-riw" secondAttribute="bottom" constant="12" id="Bgy-Q0-ajM"/>
+                                    <constraint firstItem="hE6-RE-KDF" firstAttribute="bottom" secondItem="iXY-jv-riw" secondAttribute="top" id="DUF-yy-TcF"/>
+                                    <constraint firstItem="tRv-93-AGH" firstAttribute="top" secondItem="LTa-FP-5mw" secondAttribute="bottom" constant="29" id="GAf-fn-Kx0"/>
+                                    <constraint firstItem="iXY-jv-riw" firstAttribute="leading" secondItem="6I3-PP-1my" secondAttribute="leading" id="Gmw-OV-yzD"/>
+                                    <constraint firstItem="hE6-RE-KDF" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" constant="20" id="IqU-iU-Jmd"/>
+                                    <constraint firstItem="1kM-LM-WGC" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" constant="20" symbolic="YES" id="KRk-FH-KOj"/>
+                                    <constraint firstItem="LVX-Xf-ohY" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" constant="-839" id="KyO-xt-Lbj"/>
+                                    <constraint firstAttribute="trailing" secondItem="tRv-93-AGH" secondAttribute="trailing" constant="31" id="TH6-W8-cgZ"/>
+                                    <constraint firstItem="LVX-Xf-ohY" firstAttribute="bottom" secondItem="NtH-Xd-zcU" secondAttribute="bottom" constant="49" id="THC-UA-b1G"/>
+                                    <constraint firstItem="LVX-Xf-ohY" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" id="Wmi-PZ-vdI"/>
+                                    <constraint firstItem="3jW-bd-Zaw" firstAttribute="trailing" secondItem="NtH-Xd-zcU" secondAttribute="trailing" id="XqW-MZ-y7Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="hE6-RE-KDF" secondAttribute="trailing" constant="20" id="b7y-d5-ZLt"/>
+                                    <constraint firstAttribute="trailing" secondItem="1kM-LM-WGC" secondAttribute="trailing" constant="20" symbolic="YES" id="bCt-Hv-Tg7"/>
+                                    <constraint firstAttribute="trailing" secondItem="LVX-Xf-ohY" secondAttribute="trailing" id="br1-pQ-7hw"/>
+                                    <constraint firstItem="6I3-PP-1my" firstAttribute="top" secondItem="LVX-Xf-ohY" secondAttribute="bottom" constant="50" id="eST-nc-jhQ"/>
+                                    <constraint firstItem="hE6-RE-KDF" firstAttribute="top" secondItem="6I3-PP-1my" secondAttribute="bottom" constant="8" id="hSA-tT-gWr"/>
+                                    <constraint firstItem="iXY-jv-riw" firstAttribute="centerX" secondItem="afz-eg-bw3" secondAttribute="centerX" id="hoC-oC-sNX"/>
+                                    <constraint firstItem="LTa-FP-5mw" firstAttribute="top" secondItem="afz-eg-bw3" secondAttribute="bottom" constant="8" id="kbL-Hi-NLF"/>
+                                    <constraint firstItem="LVX-Xf-ohY" firstAttribute="trailing" secondItem="6I3-PP-1my" secondAttribute="trailing" constant="8" id="lBp-xs-DzI"/>
+                                    <constraint firstItem="tRv-93-AGH" firstAttribute="leading" secondItem="8G4-va-5x9" secondAttribute="leading" constant="20" id="lxE-wD-c7g"/>
+                                    <constraint firstItem="NtH-Xd-zcU" firstAttribute="leading" secondItem="3jW-bd-Zaw" secondAttribute="leading" id="ncy-1b-bVu"/>
+                                    <constraint firstItem="NtH-Xd-zcU" firstAttribute="centerX" secondItem="8G4-va-5x9" secondAttribute="centerX" id="roK-ar-JwW"/>
+                                    <constraint firstItem="6I3-PP-1my" firstAttribute="leading" secondItem="NtH-Xd-zcU" secondAttribute="leading" constant="8" id="sKh-qz-VzD"/>
+                                    <constraint firstAttribute="trailing" secondItem="tRv-93-AGH" secondAttribute="trailing" constant="220" id="vCu-Ch-GnJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="3jW-bd-Zaw" secondAttribute="trailing" id="woj-0h-slS"/>
+                                    <constraint firstAttribute="bottom" secondItem="NtH-Xd-zcU" secondAttribute="bottom" constant="496" id="x6j-BT-pFd"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KyO-xt-Lbj"/>
+                                        <exclude reference="194-6G-9jd"/>
+                                        <exclude reference="vCu-Ch-GnJ"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8G4-va-5x9" secondAttribute="trailing" id="7WB-6y-h5M"/>
+                            <constraint firstItem="8G4-va-5x9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="U4u-Vs-IwL"/>
+                            <constraint firstItem="8G4-va-5x9" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ac9-1b-HKB"/>
+                            <constraint firstItem="8G4-va-5x9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="g1v-SR-rvI"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="cheveux" destination="7iS-nz-LTk" id="GO5-dG-eWx"/>
+                        <outlet property="peau" destination="2a8-P5-aQz" id="OGu-Js-PNC"/>
+                        <outlet property="sexe" destination="zCl-4i-1yc" id="ZS2-eO-3F4"/>
+                        <outlet property="validate" destination="tRv-93-AGH" id="OQA-2y-l2p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="325" y="428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="infoIcon" width="32" height="32"/>
+    </resources>
 </document>
