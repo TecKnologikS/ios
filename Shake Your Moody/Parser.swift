@@ -9,25 +9,28 @@
 import Foundation
 
 class Parser {
-    /*func getJSON(urlToRequest: String) -> NSData{
+    func getJSON(urlToRequest: String) -> NSData{
         return NSData(contentsOfURL: NSURL(string: urlToRequest)!)!
     }
-    func jsonToData(data:NSData) -> [Product] {
+    
+    func jsonTODATA2(data:NSData) {
         var products = [Product]()
         do {
-            if let JSONObject = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as? [[String: AnyObject]] {
-                for p in JSONObject {
-                    var product:Product!
-                    product.about = (p["about"] as? String)!
-                    products.append(product)
-                }
-                // There's our username
+            let jsonResult = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers)
+            for anItem in jsonResult as! [Dictionary<String, AnyObject>] {
+                var p = Product()
+                p.about = anItem["about"] as! String
+                p.title = anItem["title"] as! String
+                //let personID = anItem["id"] as! Int
+                products.append(p)
+                // do something with personName and personID
             }
-        } catch {
-            print("error serializing JSON: \(error)")
+        } catch let error as NSError {
+            print(error)
         }
-        return products
+        for p in products {
+            print("coucou")
+        }
     }
-    */
 
 }
