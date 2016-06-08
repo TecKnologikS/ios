@@ -14,6 +14,7 @@
 		B5E65B931D072695008CF238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E65B911D072695008CF238 /* LaunchScreen.storyboard */; };
 		B5E65B9D1D072E6C008CF238 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65B9C1D072E6C008CF238 /* Product.swift */; };
 		B5E65B9F1D073391008CF238 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65B9E1D073391008CF238 /* Parser.swift */; };
+		B5E65BA21D0808AF008CF238 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65BA11D0808AF008CF238 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B5E65B941D072695008CF238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5E65B9C1D072E6C008CF238 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		B5E65B9E1D073391008CF238 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B5E65BA11D0808AF008CF238 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B5E65B871D072695008CF238 /* Shake Your Moody */ = {
 			isa = PBXGroup;
 			children = (
+				B5E65BA01D0808A5008CF238 /* param */,
 				B5E65B9B1D072C00008CF238 /* function */,
 				B5E65B9A1D072BE3008CF238 /* classObject */,
 				B5E65B881D072695008CF238 /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 			children = (
 			);
 			name = function;
+			sourceTree = "<group>";
+		};
+		B5E65BA01D0808A5008CF238 /* param */ = {
+			isa = PBXGroup;
+			children = (
+				B5E65BA11D0808AF008CF238 /* JSON.swift */,
+			);
+			name = param;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E65B9F1D073391008CF238 /* Parser.swift in Sources */,
+				B5E65BA21D0808AF008CF238 /* JSON.swift in Sources */,
 				B5E65B8B1D072695008CF238 /* ViewController.swift in Sources */,
 				B5E65B891D072695008CF238 /* AppDelegate.swift in Sources */,
 				B5E65B9D1D072E6C008CF238 /* Product.swift in Sources */,

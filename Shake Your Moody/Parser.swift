@@ -9,6 +9,27 @@
 import Foundation
 
 class Parser {
+    
+    var products:[Product]
+    var url:String
+    init(){
+        products = [Product]()
+        url = ""
+    }
+    init(adresse:String){
+        products = [Product]()
+        url = adresse
+    }
+    
+    func setAdresse(adresse:String) {
+        url = adresse
+    }
+    
+    func getProducts() -> [Product] {
+        jsonTODATA2(getJSON(url))
+        return products
+    }
+    
     func getJSON(urlToRequest: String) -> NSData{
         return NSData(contentsOfURL: NSURL(string: urlToRequest)!)!
     }
@@ -19,8 +40,13 @@ class Parser {
             let jsonResult = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers)
             for anItem in jsonResult as! [Dictionary<String, AnyObject>] {
                 var p = Product()
-                p.about = anItem["about"] as! String
-                p.title = anItem["title"] as! String
+                p.about = anItem[JSON.ABOUT] as! String
+                p.title = anItem[JSON.TITlE] as! String
+                p.picture = anItem[JSON.PICT] as! String
+                p.thumbnail = anItem[JSON.THUMB] as! String
+                p.id = anItem[JSON.ID] as! String
+                
+                let critere = anItem[JSON.CRITERIA] as! [Dictionary<String, AnyObject>]
                 //let personID = anItem["id"] as! Int
                 products.append(p)
                 // do something with personName and personID
