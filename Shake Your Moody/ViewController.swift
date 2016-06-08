@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var hair: UISwitch!
     @IBOutlet weak var skin: UISwitch!
-    @IBOutlet weak var sexe: UISwitch!
+    @IBOutlet weak var gender: UISwitch!
     @IBOutlet weak var validate: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     /*
     func getJSON(urlToRequest: String) -> NSData{
         return NSData(contentsOfURL: NSURL(string: urlToRequest)!)!
