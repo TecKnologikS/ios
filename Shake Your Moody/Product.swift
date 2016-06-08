@@ -9,6 +9,14 @@
 import Foundation
 
 class Product {
+    
+    init() {
+        mood = Mood()
+        hair = DarkBright()
+        skin = DarkBright()
+        gender = Gender()
+    }
+    
     var title:String = ""
     var id:String = ""
     var about:String = ""
@@ -16,8 +24,8 @@ class Product {
     var thumbnail:String = ""
     var mood:Mood?
     var gender:Gender?
-    var hair:Hair?
-    var skin:Skin?
+    var hair:DarkBright?
+    var skin:DarkBright?
     var tags:[String] = []
 }
 
@@ -26,19 +34,41 @@ class Mood {
     var weekend:Bool = false
     var chill:Bool = false
     var work:Bool = false
+
+    func isParty() -> Bool {
+        return party
+    }
+    func isWE() -> Bool {
+        return weekend
+    }
+    func isChill() -> Bool {
+        return chill
+    }
+    func isWork() -> Bool {
+        return work
+    }
 }
 
 class Gender {
     var male:Bool = false
     var female:Bool = false
+    
+    func isMale() -> Bool {
+        return male
+    }
+    func isFemale() -> Bool {
+        return female
+    }
 }
 
-class Hair {
+struct DarkBright {
     var dark:Bool = false
     var bright:Bool = false
-}
-
-class Skin {
-    var dark:Bool = false
-    var bright:Bool = false
+    
+    func isDark() -> Bool {
+        return dark
+    }
+    func isBright() -> Bool {
+        return bright
+    }
 }
