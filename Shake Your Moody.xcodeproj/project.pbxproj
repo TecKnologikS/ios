@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B5885E9D1D08198500D2A9CA /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5885E9C1D08198500D2A9CA /* ProductsManager.swift */; };
 		B5885E9F1D0826BF00D2A9CA /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5885E9E1D0826BF00D2A9CA /* Shuffle.swift */; };
+		B5885EA31D08293A00D2A9CA /* String.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5885EA21D08293A00D2A9CA /* String.strings */; };
+		B5885EA51D082A7000D2A9CA /* StringLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5885EA41D082A7000D2A9CA /* StringLocalizable.swift */; };
 		B5E65B891D072695008CF238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65B881D072695008CF238 /* AppDelegate.swift */; };
 		B5E65B8B1D072695008CF238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65B8A1D072695008CF238 /* ViewController.swift */; };
 		B5E65B8E1D072695008CF238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E65B8C1D072695008CF238 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		B5885E9C1D08198500D2A9CA /* ProductsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsManager.swift; sourceTree = "<group>"; };
 		B5885E9E1D0826BF00D2A9CA /* Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		B5885EA21D08293A00D2A9CA /* String.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = String.strings; sourceTree = "<group>"; };
+		B5885EA41D082A7000D2A9CA /* StringLocalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLocalizable.swift; sourceTree = "<group>"; };
 		B5E65B851D072695008CF238 /* Shake Your Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Your Moody.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E65B881D072695008CF238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E65B8A1D072695008CF238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -73,6 +77,7 @@
 				B5E65B8F1D072695008CF238 /* Assets.xcassets */,
 				B5E65B911D072695008CF238 /* LaunchScreen.storyboard */,
 				B5E65B941D072695008CF238 /* Info.plist */,
+				B5885EA21D08293A00D2A9CA /* String.strings */,
 			);
 			path = "Shake Your Moody";
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B5885E9E1D0826BF00D2A9CA /* Shuffle.swift */,
+				B5885EA41D082A7000D2A9CA /* StringLocalizable.swift */,
 			);
 			name = function;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E65B931D072695008CF238 /* LaunchScreen.storyboard in Resources */,
+				B5885EA31D08293A00D2A9CA /* String.strings in Resources */,
 				B5E65B901D072695008CF238 /* Assets.xcassets in Resources */,
 				B5E65B8E1D072695008CF238 /* Main.storyboard in Resources */,
 			);
@@ -178,6 +185,7 @@
 				B5E65B9F1D073391008CF238 /* Parser.swift in Sources */,
 				B5885E9D1D08198500D2A9CA /* ProductsManager.swift in Sources */,
 				B5E65BA21D0808AF008CF238 /* JSON.swift in Sources */,
+				B5885EA51D082A7000D2A9CA /* StringLocalizable.swift in Sources */,
 				B5E65B8B1D072695008CF238 /* ViewController.swift in Sources */,
 				B5E65B891D072695008CF238 /* AppDelegate.swift in Sources */,
 				B5E65B9D1D072E6C008CF238 /* Product.swift in Sources */,
