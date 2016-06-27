@@ -18,20 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake Your Moody" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyx-v1-IvA">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" red="0.27898848679999999" green="0.46849300989999998" blue="0.70811060859999997" alpha="0.83999999999999997" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SYM" translatesAutoresizingMaskIntoConstraints="NO" id="NqW-KJ-Qd5">
+                                <rect key="frame" x="166" y="180" width="268" height="240"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By a famous team !" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyx-v1-IvA">
+                                <rect key="frame" x="0.0" y="428" width="600" height="77"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yyx-v1-IvA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="9OQ-Rv-yQh"/>
+                            <constraint firstItem="NqW-KJ-Qd5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0Be-Nd-N9q"/>
+                            <constraint firstItem="yyx-v1-IvA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="428" id="9OQ-Rv-yQh"/>
+                            <constraint firstItem="NqW-KJ-Qd5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BEA-U0-6yN"/>
                             <constraint firstItem="yyx-v1-IvA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="LGc-mA-wlC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yyx-v1-IvA" secondAttribute="trailing" constant="-20" id="VOD-D8-QKT"/>
-                            <constraint firstItem="yyx-v1-IvA" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="cL5-60-6sH"/>
+                            <constraint firstItem="yyx-v1-IvA" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" constant="-95" id="cL5-60-6sH"/>
+                            <constraint firstItem="yyx-v1-IvA" firstAttribute="top" secondItem="NqW-KJ-Qd5" secondAttribute="bottom" constant="8" id="sBX-I0-VkS"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,4 +45,7 @@
             <point key="canvasLocation" x="331" y="426"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SYM" width="706" height="654"/>
+    </resources>
 </document>

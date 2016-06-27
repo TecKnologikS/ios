@@ -837,19 +837,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9th-Z9-jFQ">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAs-0W-4ZT">
-                                                <rect key="frame" x="8" y="22" width="133" height="21"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="133" id="38U-tb-4dd"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SYM2" translatesAutoresizingMaskIntoConstraints="NO" id="Mdw-0l-DNJ">
+                                                <rect key="frame" x="8" y="8" width="499" height="49"/>
+                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pov-Sz-4l8">
-                                                <rect key="frame" x="452" y="22" width="140" height="21"/>
+                                                <rect key="frame" x="522" y="22" width="70" height="21"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="140" id="omx-UY-769"/>
+                                                    <constraint firstAttribute="width" constant="70" id="omx-UY-769"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -858,11 +852,13 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="cAs-0W-4ZT" firstAttribute="centerY" secondItem="9th-Z9-jFQ" secondAttribute="centerY" id="Ll4-3b-sYd"/>
+                                            <constraint firstItem="pov-Sz-4l8" firstAttribute="leading" secondItem="Mdw-0l-DNJ" secondAttribute="trailing" constant="15" id="AwV-7K-esR"/>
+                                            <constraint firstItem="Mdw-0l-DNJ" firstAttribute="leading" secondItem="9th-Z9-jFQ" secondAttribute="leadingMargin" id="Fbb-zp-ajP"/>
+                                            <constraint firstItem="Mdw-0l-DNJ" firstAttribute="top" secondItem="9th-Z9-jFQ" secondAttribute="topMargin" id="Soe-5S-iQ3"/>
                                             <constraint firstAttribute="height" constant="65" id="eQ2-LE-EVA"/>
                                             <constraint firstItem="pov-Sz-4l8" firstAttribute="centerY" secondItem="9th-Z9-jFQ" secondAttribute="centerY" id="fZg-wg-j2c"/>
                                             <constraint firstAttribute="trailing" secondItem="pov-Sz-4l8" secondAttribute="trailing" constant="8" id="hBq-Av-gqO"/>
-                                            <constraint firstItem="cAs-0W-4ZT" firstAttribute="leading" secondItem="9th-Z9-jFQ" secondAttribute="leading" constant="8" id="tED-t8-0er"/>
+                                            <constraint firstItem="Mdw-0l-DNJ" firstAttribute="centerY" secondItem="pov-Sz-4l8" secondAttribute="centerY" id="t8M-ng-cr2"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1263,6 +1259,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="SYM2" width="1949" height="177"/>
         <image name="blanc_br" width="160" height="160"/>
         <image name="blanche_br" width="160" height="160"/>
         <image name="coeur_vide" width="626" height="626"/>

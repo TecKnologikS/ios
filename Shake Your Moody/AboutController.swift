@@ -17,7 +17,7 @@ class AboutController: UIViewController {
         let nsObject: AnyObject? = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"]
         
         
-        version.text = nsObject as? String
+        version.text = "v " + (nsObject as? String)!
         
     }
     
