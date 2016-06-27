@@ -85,11 +85,12 @@ class ProductsManager {
     
     func shake(){
         self.filter10Products = [Product]()
-        if (self.filter10ProductsLeft.count > 0) {
+        if (self.filterProducts.count > 0) {
             self.filter10ProductsLeft.shuffle()
             for _ in 1...10 {
                 if (self.filter10ProductsLeft.count == 0) {
-                    break
+                    self.filter10ProductsLeft = self.filterProducts
+                    self.filter10ProductsLeft.shuffle()
                 }
                 self.filter10Products.append(self.filter10ProductsLeft.first!)
                 self.filter10ProductsLeft.removeFirst()
