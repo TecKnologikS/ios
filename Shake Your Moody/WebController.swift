@@ -14,10 +14,10 @@ class WebController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let urls = "https://www.google.fr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=\(ProductsManager.sharedInstance.getActualProduct().title)"
-       // let url = NSURL (string: urls);
-       // let requestObj = NSURLRequest(URL: url!);
-        //webView.loadRequest(requestObj);
+        let urls = "https://www.google.fr/webhp?&ie=UTF-8#q=\(ProductsManager.sharedInstance.getActualProduct().title.stringByReplacingOccurrencesOfString(" ", withString: "+"))&tbm=shop"
+        let url = NSURL (string: urls);
+        let requestObj = NSURLRequest(URL: url!);
+        webView.loadRequest(requestObj);
     }
     
     override func didReceiveMemoryWarning() {

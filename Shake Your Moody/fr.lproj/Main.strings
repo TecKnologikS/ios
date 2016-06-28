@@ -1,0 +1,198 @@
+
+/* Class = "UIBarButtonItem"; title = "Best price"; ObjectID = "0lp-P5-doJ"; */
+"0lp-P5-doJ.title" = "Meilleurs prix pour ce produit";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor."; ObjectID = "2Sf-a6-O7I"; */
+"2Sf-a6-O7I.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor.";
+
+/* Class = "UINavigationItem"; title = "Best Price"; ObjectID = "2VJ-AB-TcC"; */
+"2VJ-AB-TcC.title" = "Meilleurs prix pour ce produit";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor."; ObjectID = "3DL-Vs-ngU"; */
+"3DL-Vs-ngU.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor.";
+
+/* Class = "UILabel"; text = "Peau"; ObjectID = "6hp-OM-Ujs"; */
+"6hp-OM-Ujs.text" = "Peau";
+
+/* Class = "UIBarButtonItem"; title = "Shake It"; ObjectID = "8B9-Rm-uOm"; */
+"8B9-Rm-uOm.title" = "Mélanger";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "BDT-Xv-AeB"; */
+"BDT-Xv-AeB.text" = "Homme";
+
+/* Class = "UILabel"; text = "Clair"; ObjectID = "CwJ-RT-Pue"; */
+"CwJ-RT-Pue.text" = "Clair";
+
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "DfV-Xa-SmB"; */
+"DfV-Xa-SmB.normalTitle" = "Homme";
+
+/* Class = "UIViewController"; title = "Shake Your Moody"; ObjectID = "EiI-Qk-WTc"; */
+"EiI-Qk-WTc.title" = "Shake Your Moody";
+
+/* Class = "UILabel"; text = "Femelle"; ObjectID = "F3Q-7h-dEC"; */
+"F3Q-7h-dEC.text" = "Femme";
+
+/* Class = "UINavigationItem"; title = "My Style"; ObjectID = "FW5-w6-JTO"; */
+"FW5-w6-JTO.title" = "Mon Style";
+
+/* Class = "UILabel"; text = "Foncé"; ObjectID = "GdK-J4-CcR"; */
+"GdK-J4-CcR.text" = "Foncé";
+
+/* Class = "UINavigationItem"; title = "Me"; ObjectID = "HS4-JP-uv0"; */
+"HS4-JP-uv0.title" = "Moi";
+
+/* Class = "UILabel"; text = "Travail"; ObjectID = "IIH-r2-CdX"; */
+"IIH-r2-CdX.text" = "Travail";
+
+/* Class = "UIButton"; normalTitle = "Clair"; ObjectID = "JHi-je-SqW"; */
+"JHi-je-SqW.normalTitle" = "Clair";
+
+/* Class = "UIButton"; normalTitle = "Female"; ObjectID = "Jmf-D7-fee"; */
+"Jmf-D7-fee.normalTitle" = "Femme";
+
+/* Class = "UILabel"; text = "Pierre MEHU"; ObjectID = "KVr-oV-hGC"; */
+"KVr-oV-hGC.text" = "Pierre MEHU";
+
+/* Class = "UIViewController"; title = "Shake Your Moody"; ObjectID = "Kca-vf-6aq"; */
+"Kca-vf-6aq.title" = "Shake Your Moody";
+
+/* Class = "UILabel"; text = "Chill"; ObjectID = "Kwu-r4-KCp"; */
+"Kwu-r4-KCp.text" = "Nuit";
+
+/* Class = "UIBarButtonItem"; title = "Best Price"; ObjectID = "LHi-hs-qQ1"; */
+"LHi-hs-qQ1.title" = "Meilleurs prix pour ce produit";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lyh-lh-JoW"; */
+"Lyh-lh-JoW.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "i"; ObjectID = "MNh-Bt-j7n"; */
+"MNh-Bt-j7n.title" = "i";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "N1B-Qe-GJ9"; */
+"N1B-Qe-GJ9.title" = "Item";
+
+/* Class = "UILabel"; text = "Party"; ObjectID = "NGe-b0-LPt"; */
+"NGe-b0-LPt.text" = "Soirée";
+
+/* Class = "UILabel"; text = "Clair"; ObjectID = "PxE-ro-fyy"; */
+"PxE-ro-fyy.text" = "Clair";
+
+/* Class = "UILabel"; text = "Foncé"; ObjectID = "QC5-Wu-dKQ"; */
+"QC5-Wu-dKQ.text" = "Foncé";
+
+/* Class = "UILabel"; text = "Week End"; ObjectID = "Qz0-N3-q5V"; */
+"Qz0-N3-q5V.text" = "Week End";
+
+/* Class = "UIBarButtonItem"; title = "i"; ObjectID = "R34-pP-WpZ"; */
+"R34-pP-WpZ.title" = "i";
+
+/* Class = "UIBarButtonItem"; title = "i"; ObjectID = "ScS-90-hfC"; */
+"ScS-90-hfC.title" = "i";
+
+/* Class = "UIBarButtonItem"; title = "Valider"; ObjectID = "TDx-kX-Y7s"; */
+"TDx-kX-Y7s.title" = "Valider";
+
+/* Class = "UILabel"; text = "Schtroumphette "; ObjectID = "TxB-3r-vuK"; */
+"TxB-3r-vuK.text" = "Schtroumphette ";
+
+/* Class = "UILabel"; text = "Work"; ObjectID = "V0B-qg-W7W"; */
+"V0B-qg-W7W.text" = "Travail";
+
+/* Class = "UILabel"; text = "Sexe"; ObjectID = "W5x-K8-I6b"; */
+"W5x-K8-I6b.text" = "Sexe";
+
+/* Class = "UINavigationItem"; title = "Mood"; ObjectID = "c5M-jQ-YW4"; */
+"c5M-jQ-YW4.title" = "Humeur";
+
+/* Class = "UILabel"; text = "Cheveux"; ObjectID = "cBX-9X-f9e"; */
+"cBX-9X-f9e.text" = "Cheveux";
+
+/* Class = "UILabel"; text = "Grand Schtroumph"; ObjectID = "cIs-N5-dHp"; */
+"cIs-N5-dHp.text" = "Grand Schtroumph";
+
+/* Class = "UILabel"; text = "Sexe"; ObjectID = "e9t-8g-673"; */
+"e9t-8g-673.text" = "Sexe";
+
+/* Class = "UINavigationItem"; title = "Product"; ObjectID = "ffg-bs-Ley"; */
+"ffg-bs-Ley.title" = "Produit";
+
+/* Class = "UILabel"; text = "Soirée"; ObjectID = "gd1-aS-wMr"; */
+"gd1-aS-wMr.text" = "Soirée";
+
+/* Class = "UILabel"; text = "Peau"; ObjectID = "gvK-SG-1td"; */
+"gvK-SG-1td.text" = "Peau";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hyg-pl-lcd"; */
+"hyg-pl-lcd.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "jZS-E8-rUZ"; */
+"jZS-E8-rUZ.title" = "Titre";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "jfk-Vo-qpS"; */
+"jfk-Vo-qpS.title" = "A propos";
+
+/* Class = "UILabel"; text = "Schtroumph Dormeur"; ObjectID = "jl7-tH-b7R"; */
+"jl7-tH-b7R.text" = "Schtroumph Dormeur";
+
+/* Class = "UILabel"; text = "Week-End"; ObjectID = "jmo-Tc-JxB"; */
+"jmo-Tc-JxB.text" = "Week-End";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "kDg-5U-2Sj"; */
+"kDg-5U-2Sj.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Foncé"; ObjectID = "l94-nY-57y"; */
+"l94-nY-57y.normalTitle" = "Foncé";
+
+/* Class = "UIViewController"; title = "Shake Your Moody"; ObjectID = "lIo-28-Djb"; */
+"lIo-28-Djb.title" = "Shake Your Moody";
+
+/* Class = "UILabel"; text = "Katia AIT OUMEZIANE"; ObjectID = "mBs-CA-lbv"; */
+"mBs-CA-lbv.text" = "Katia AIT OUMEZIANE";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "n3Q-G2-wJq"; */
+"n3Q-G2-wJq.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "oQj-6U-APU"; */
+"oQj-6U-APU.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIBarButtonItem"; title = "Shake Your Moody"; ObjectID = "pP1-25-xvY"; */
+"pP1-25-xvY.title" = "Shake Your Moody";
+
+/* Class = "UIButton"; normalTitle = "Clair"; ObjectID = "pTh-jq-aVJ"; */
+"pTh-jq-aVJ.normalTitle" = "Clair";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pov-Sz-4l8"; */
+"pov-Sz-4l8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Valider"; ObjectID = "qQN-YH-vfz"; */
+"qQN-YH-vfz.normalTitle" = "Suivant";
+
+/* Class = "UILabel"; text = "Robin PAUQUET"; ObjectID = "qTp-ed-4kC"; */
+"qTp-ed-4kC.text" = "Robin PAUQUET";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor."; ObjectID = "svC-mx-oCV"; */
+"svC-mx-oCV.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lorem lacus, a luctus lorem vehicula porttitor.";
+
+/* Class = "UILabel"; text = "Cheveux"; ObjectID = "uOL-dX-eoR"; */
+"uOL-dX-eoR.text" = "Cheveux";
+
+/* Class = "UINavigationController"; title = "Shake Your Moody"; ObjectID = "vpi-Be-T2w"; */
+"vpi-Be-T2w.title" = "Shake Your Moody";
+
+/* Class = "UIButton"; normalTitle = "Valider"; ObjectID = "xEt-Ad-Oyw"; */
+"xEt-Ad-Oyw.normalTitle" = "Suivant";
+
+/* Class = "UIButton"; normalTitle = "Foncé"; ObjectID = "xcX-vu-HkQ"; */
+"xcX-vu-HkQ.normalTitle" = "Foncé";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xyU-ed-z9y"; */
+"xyU-ed-z9y.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Valider"; ObjectID = "yTf-im-OCu"; */
+"yTf-im-OCu.title" = "Suivant";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "z45-q7-EmD"; */
+"z45-q7-EmD.text" = "Description";
+
+/* Class = "UILabel"; text = "Chill"; ObjectID = "zg2-9o-9rt"; */
+"zg2-9o-9rt.text" = "Nuit";

@@ -1,0 +1,23 @@
+/* 
+  String.strings
+  Shake Your Moody
+
+  Created by Robin PAUQUET on 08/06/2016.
+  Copyright © 2016 Robin PAUQUET. All rights reserved.
+*/
+/*
+ static let title:String = ""
+static let aPropos:String = ""
+static let creator:[String] = ["", "", ""]
+static let creatorRules:[String] = ["", "", ""]
+static let introFeature:String = ""
+static let features:[String] = ""
+*/
+/*
+"TITLE" = "Shake Your Moody"
+ "ABOUT" = "j"
+ "CREATOR1" = "h"
+"CREATOR2" = "h"
+ "CREATOR3" = "g"
+ "INTRO_FEATURE" = "h"
+ "FEATURE" = "g"*/
