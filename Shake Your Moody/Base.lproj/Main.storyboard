@@ -857,12 +857,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="337" id="0ft-xb-seA"/>
                                         </constraints>
-                                        <mutableString key="text">Dans cette nouvelle aventure des Schtroumpfs, Schtroumpf Musclor demanda à 3 Schtroumpfs  : Grand Schtroumpf, Schtroumpfette et Schtroumpf Farceur de faire une application.
+                                        <string key="text">Dans cette nouvelle aventure des Schtroumpfs, Schtroumpf Musclor demanda à 3 Schtroumpfs  : Grand Schtroumpf, Schtroumpfette et Schtroumpf Farceur de faire une application.
 On va l’appeler Shake Your ….. » dit Grand Schtroumpf
 « ….. BOOTY ! » intervint Schtroumpf Farceur !
 Alors Schtroumpfette se lance dans un Booty Shake enflammé  avant que Grand Schtroumpf l’arrête et gronde Schtroumpf Farceur.
 Ainsi pour la première fois Schtroumpf Farceur mis du coeur dans ce projet de code, au coté de Schtroumpfette.
-Cependant la dance enflammée de cette resta au coeur même de l’application, sur son LOGO !</mutableString>
+Cependant la dance enflammée de cette resta au coeur même de l’application, sur son LOGO !</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
