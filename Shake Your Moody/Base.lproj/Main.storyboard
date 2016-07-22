@@ -1215,7 +1215,13 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
                         <barButtonItem title="Best price" id="0lp-P5-doJ"/>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="O2Y-r9-b8U"/>
                     </toolbarItems>
-                    <navigationItem key="navigationItem" title="Product" id="ffg-bs-Ley"/>
+                    <navigationItem key="navigationItem" title="Product" id="ffg-bs-Ley">
+                        <barButtonItem key="rightBarButtonItem" title="i" id="xmL-s3-rHC">
+                            <connections>
+                                <segue destination="EKI-gr-chf" kind="show" id="FBE-Fr-dly"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Oiz-Zl-4uy" id="PEh-hj-AGd"/>
                         <outlet property="imgBack" destination="mnl-1o-j4o" id="COU-Fx-8mn"/>
@@ -1255,7 +1261,13 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Best Price" id="2VJ-AB-TcC"/>
+                    <navigationItem key="navigationItem" title="Best Price" id="2VJ-AB-TcC">
+                        <barButtonItem key="rightBarButtonItem" title="i" id="xNL-A0-3T3">
+                            <connections>
+                                <segue destination="EKI-gr-chf" kind="show" id="3vE-cX-ddB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="webView" destination="4yf-dQ-who" id="oqv-vu-Sq2"/>
@@ -1274,6 +1286,6 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
         <image name="infoIcon" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5e0-Cf-pSL"/>
+        <segue reference="3vE-cX-ddB"/>
     </inferredMetricsTieBreakers>
 </document>
