@@ -857,12 +857,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="337" id="0ft-xb-seA"/>
                                         </constraints>
-                                        <string key="text">Dans cette nouvelle aventure des Schtroumpfs, Schtroumpf Musclor demanda à 3 Schtroumpfs  : Grand Schtroumpf, Schtroumpfette et Schtroumpf Farceur de faire une application.
+                                        <mutableString key="text">Dans cette nouvelle aventure des Schtroumpfs, Schtroumpf Musclor demanda à 3 Schtroumpfs  : Grand Schtroumpf, Schtroumpfette et Schtroumpf Farceur de faire une application.
 On va l’appeler Shake Your ….. » dit Grand Schtroumpf
 « ….. BOOTY ! » intervint Schtroumpf Farceur !
 Alors Schtroumpfette se lance dans un Booty Shake enflammé  avant que Grand Schtroumpf l’arrête et gronde Schtroumpf Farceur.
 Ainsi pour la première fois Schtroumpf Farceur mis du coeur dans ce projet de code, au coté de Schtroumpfette.
-Cependant la dance enflammée de cette resta au coeur même de l’application, sur son LOGO !</string>
+Cependant la dance enflammée de Schtroumpfette resta au coeur même de l’application, sur son LOGO !</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -980,7 +980,7 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
                                             <rect key="frame" x="0.0" y="0.0" width="129" height="106"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyU-ed-z9y">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyU-ed-z9y">
                                                     <rect key="frame" x="0.0" y="80" width="129" height="26"/>
                                                     <color key="backgroundColor" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1060,10 +1060,10 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mnl-1o-j4o">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mnl-1o-j4o">
                                 <rect key="frame" x="0.0" y="64" width="600" height="127"/>
                             </imageView>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orq-ys-wDQ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orq-ys-wDQ">
                                 <rect key="frame" x="0.0" y="190" width="600" height="106"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lyh-lh-JoW">
@@ -1156,7 +1156,7 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="peW-qT-urk"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3Q-G2-wJq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3Q-G2-wJq">
                                 <rect key="frame" x="20" y="295" width="560" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="STh-PN-NpE"/>
@@ -1165,10 +1165,10 @@ Cependant la dance enflammée de cette resta au coeur même de l’application, 
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hrR-sr-SDX">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrR-sr-SDX">
                                 <rect key="frame" x="20" y="345" width="560" height="211"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-5U-2Sj">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-5U-2Sj">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="211"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
